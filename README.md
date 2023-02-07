@@ -9,4 +9,5 @@ extract frames from video, filtering the extracted frames like face identificati
 A pretrained model is used on training set and model with best accuracy is used to determine wheather the video is real or fake.
 
 **MESONET MODEL:**
+
 ![image](https://user-images.githubusercontent.com/56174010/217159043-0a17ad5f-e1b0-476b-8683-f512a1e50741.png)
