@@ -1,0 +1,8 @@
+  from google.colab import drive
+drive.mount('/content/drive')
+import os
+os.environ['KAGGLE_CONFIG_DIR']="/content/drive/MyDrive/Kaggle"
+%cd "/content/drive/MyDrive/Kaggle"
+!kaggle datasets download -d dagnelies/deepfake-faces
+!ls
+!unzip \*.zip && rm *.zip
